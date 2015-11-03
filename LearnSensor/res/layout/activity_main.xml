@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Sensor" />
+
+    <Button
+        android:id="@+id/btntemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor.TYPE_TEMPERATURE " />
+
+    <Button
+        android:id="@+id/btnsensorlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor.TYPE_LIGHT" />
+
+    <Button
+        android:id="@+id/btnsensorpressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor.TYPE_PRESSURE" />
+
+    <Button
+        android:id="@+id/btnproximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor.TYPE_PROXIMITY" />
+
+    <Button
+        android:id="@+id/btnaccelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor.TYPE_ACCELEROMETOR" />
+
+    <Button
+        android:id="@+id/btngyroscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor.TYPE_GYROSCOPE" />
+
+    <Button
+        android:id="@+id/btnorientationsensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor.TYPE_ORIENTATION" />
+
+</LinearLayout>

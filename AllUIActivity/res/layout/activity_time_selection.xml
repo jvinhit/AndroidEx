@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TimeSelectionActivity" >
+	<TextView
+        android:id="@+id/txtdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <Button
+        android:id="@+id/btnDatePickerDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show DatePicker Dialog" />
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show TimePicker" />
+    <Button
+        android:id="@+id/btnChronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Chronometer" />
+    <Button
+        android:id="@+id/btnAnalogClocl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analog Clock" />
+    <LinearLayout
+        android:id="@+id/mylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+</LinearLayout>
+

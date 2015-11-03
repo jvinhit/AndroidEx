@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myarray">
+        <item >Mùa xuân</item>
+        <item >Mùa hạ</item>
+        <item >Mùa thu</item>
+        <item >Mùa đông</item>
+    </string-array>
+</resources>

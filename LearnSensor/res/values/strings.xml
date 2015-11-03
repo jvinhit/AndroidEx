@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LearnSensor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_temperature">TemperatureActivity</string>
+    <string name="title_activity_light_sensor">LightSensorActivity</string>
+    <string name="title_activity_pressure_sensor">PressureSensorActivity</string>
+    <string name="title_activity_proximity_sensor">ProximitySensorActivity</string>
+    <string name="title_activity_accelerometer_sensor">AccelerometerSensorActivity</string>
+    <string name="title_activity_gyroscope_sensor">GyroscopeSensorActivity</string>
+    <string name="title_activity_orientation_sensor">OrientationSensorActivity</string>
+
+</resources>

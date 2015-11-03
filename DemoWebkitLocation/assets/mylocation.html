@@ -1,0 +1,55 @@
+<html >
+<head>
+<script language="javascript">
+	function getmylocation()
+	{
+		locater.fakeLocation();
+		document.getElementById("txtlat").value=locater.getLatitude();
+		document.getElementById("txtlong").value=locater.getLongtitude();
+		document.getElementById("txtdata").value=locater.getData();
+	}
+	function talking2Android()
+	{
+		locater.setData("Greetings from html");
+		var data="--------\n"+
+		+"\n"+document.getElementById("txtlat").value
+		+"\n"+document.getElementById("txtlong").value
+		+"\n"+document.getElementById("txtdata").value;
+		locater.htmlPassing2Android(data);
+	}
+</script>
+</head>
+
+<body>
+<table border="1">
+	<tr>
+		<td colspan="2" id="xyz">You are at</td>
+	</tr>
+	<tr>
+		<td style="width: 140px">Latitude</td>
+		<td style="width: 251px"><input id="txtlat"  type="text"  /></td>
+	</tr>
+	<tr>
+		<td style="height: 2px; width: 140px">Longtitude</td>
+		<td style="width: 251px; height: 2px">
+			<input id="txtlong"  type="text" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<input id="btngetlocation" onclick="getmylocation()"
+			type="button" value="Click to get location" />
+		</td>
+	</tr>
+	<tr>
+		<td >Enter some data here</td>
+		<td ><input id="txtdata" type="text" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<input id="btntalking" 	onclick="talking2Android()"
+			type="button" value="Talking to Android" />
+		</td>
+	</tr>
+</table>
+</body>
+</html>

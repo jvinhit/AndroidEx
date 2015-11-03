@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestLayout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="username_">UserName:</string>
+    <string name="idstrok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_check_box">CheckBoxActivity</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_radio">RadioActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_listview">ListviewActivity</string>
+
+    <string-array name="arrperson">
+        <item>Tèo</item>
+        <item>Tý</item>
+        <item>Bin</item>
+        <item>Bo</item>
+    </string-array>
+
+    <string name="title_activity_listview_activity_with_array_list">ListviewActivityWithArrayList</string>
+    <string name="title_activity_listview_list">ListviewListActivity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_sliding_drawer">SlidingDrawerActivity</string>
+    <string name="title_activity_auto_complete_text_view">AutoCompleteTextViewActivity</string>
+    <string name="title_activity_gridview">GridviewActivity</string>
+    <string name="title_activity_time_selection">TimeSelectionActivity</string>
+    <string name="title_activity_picture_gallery">PictureGalleryActivity</string>
+    <string name="title_activity_picture_gallery_with_gridview">PictureGalleryWithGridviewActivity</string>
+    <string name="title_activity_tab_selector">TabSelectorActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

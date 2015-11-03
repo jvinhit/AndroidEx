@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btndomparser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAX Parser" />
+
+    <EditText
+        android:id="@+id/editdata"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2.12"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

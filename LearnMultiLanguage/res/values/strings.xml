@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnMultiLanguage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string-array name="myarray">
+        <item >Spring</item>
+        <item >Summer</item>
+        <item >Autumn</item>
+        <item >Winter</item>
+    </string-array>
+</resources>

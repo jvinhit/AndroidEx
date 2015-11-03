@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tranduythanh.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="tranduythanh.com.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tranduythanh.com.TemperatureActivity"
+            android:label="@string/title_activity_temperature" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.LightSensorActivity"
+            android:label="@string/title_activity_light_sensor" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.PressureSensorActivity"
+            android:label="@string/title_activity_pressure_sensor" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.ProximitySensorActivity"
+            android:label="@string/title_activity_proximity_sensor" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.AccelerometerSensorActivity"
+            android:label="@string/title_activity_accelerometer_sensor" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.GyroscopeSensorActivity"
+            android:label="@string/title_activity_gyroscope_sensor" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.OrientationSensorActivity"
+            android:label="@string/title_activity_orientation_sensor" >
+        </activity>
+    </application>
+
+</manifest>
